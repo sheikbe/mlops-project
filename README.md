@@ -104,6 +104,10 @@ docker run -p 8000:8000 -p 7860:7860 iris-mlops
 Alternatively keep the API in Docker and run the UI on the host with `python src/ui.py` — it talks
 to the container via `http://localhost:8000`.
 
+## MLOps justification / demo notes
+
+See [`docs/MLOPS_DEMO.md`](docs/MLOPS_DEMO.md) for how each component maps to MLOps practices and a 5-minute demo script.
+
 ## CI
 
 GitHub Actions runs on every push to `main` and on pull requests: install dependencies → train →
