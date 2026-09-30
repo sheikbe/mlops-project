@@ -1,0 +1,9 @@
+scikit-learn==1.9.1
+joblib==1.6.0
+mlflow==3.16.1
+fastapi==0.141.1
+uvicorn==0.53.0
+gradio==6.27.0
+requests==2.34.2
+httpx==0.28.1
+pytest==9.1.1
